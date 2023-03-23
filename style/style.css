@@ -19,6 +19,10 @@ header {
   height: 44px;
 }
 
+.header__city {
+  background-color: #eaeaea;
+}
+
 body {
   margin: 0;
   padding: 0;
