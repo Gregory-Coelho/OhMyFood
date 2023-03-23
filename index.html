@@ -1,19 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <title>Ohmyfood</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OhMyFood</title>
+    <link rel="stylesheet" href="./style/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c00c0dec04.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <header>
-    <div class="header">
-      <img
-        src="./assets/images/logo/ohmyfood.png"
-        alt="ohmyfoodLogo"
-        class="header__logo"
-      />
+  <body>
+    <div class="loading">
+      <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
-    <div class="header__city">Paris, Belleville</div>
-  </header>
-  <body></body>
-  <footer></footer>
+
+    <nav class="navhome">
+      <h1 class="logo">ohmyfood</h1>
+    </nav>
+
+    <form class="search">
+      <div class="location"><i class="fa-solid fa-location-dot"></i></div>
+      <input value="Paris, Belleville" />
+    </form>
+
+    <header class="container">
+      <h2>Réservez le menu qui vous convient</h2>
+      <p>Découvrez des restaurants d'exception, sélectionnés pas nos soins</p>
+      <a href="#" class="btn"> Explorer nos restaurants</a>
+    </header>
+
+    <footer>
+      <img class="footer-logo" src="./images/logo/ohmyfood@2x.svg" alt="logo" />
+      <ul>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-utensils"> </i>Proposer un restaurant
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-handshake-angle"></i>Devenir partenaire
+          </a>
+        </li>
+        <li><a href="#">Mention legales </a></li>
+        <li><a href="#">Contact </a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
